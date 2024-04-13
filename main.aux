@@ -1,0 +1,87 @@
+\relax 
+\providecommand\zref@newlabel[2]{}
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\providecommand\babel@aux[2]{}
+\@nameuse{bbl@beforestart}
+\bibstyle{abbrvnat}
+\citation{bengio2013deep,bengio2013estimating,bengio2016conditional}
+\citation{ainslie2023colt5,fedus2022switch,bapna_controlling}
+\citation{graves_adaptive,dehghani2018universal}
+\babel@aux{arabic}{}
+\@writefile{toc}{\contentsline {section}{\numberline {1}مقدمة}{1}{section.1}\protected@file@percent }
+\citation{tay_efficient,gupta2021compression}
+\citation{bengio2013deep}
+\citation{bengio2013estimating,cho2014exponentially,graves_adaptive,jernite2017variable,bengio2016conditional,wang_skipnet}
+\citation{elbayad_depth,liu2021anytime,schuster2022confident}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces \textbf  {محول مزيج الأعماق.} كما هو الحال في محولات مزيج الخبراء (MoE)، نستخدم موجهًا للاختيار من بين المسارات الحسابية المحتملة. لكن على عكس محولات MoE، تكون الخيارات المحتملة هي حساب كتلة قياسية (أي الانتباه الذاتي وMLP) أو اتصال متبقٍ. نظرًا لأن بعض الرموز المميزة تأخذ هذا المسار الثاني، فإن محولات مزيج الأعماق (MoD) لها بصمة إجمالية أصغر من FLOP مقارنةً بالمحولات العادية أو MoE. في أعلى اليمين، تم تصوير قرارات توجيه نموذج مدرب لتسلسل قصير تم اقتطاعه إلى 64 رمزًا مميزًا لأغراض التصور. عند فحص الخيارات، يمكن للمرء أن يجد رموزًا مميزة تتم معالجتها بواسطة طبقات الكتل اللاحقة، على الرغم من المرور عبر عدد قليل نسبيًا من الكتل الإجمالية خلال عمق النموذج. هذه ميزة فريدة من MoD مقارنة بالحوسبة الشرطية التقليدية القائمة على التوقف، أو المحولات "الخروج المبكر" أو العادية، والتي تشارك الكتل بالتسلسل بدلاً من ذلك أو تشارك كل كتلة.}}{2}{figure.caption.1}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:mixture-of-depths}{{1}{2}{\textbf {محول مزيج الأعماق.} كما هو الحال في محولات مزيج الخبراء (MoE)، نستخدم موجهًا للاختيار من بين المسارات الحسابية المحتملة. لكن على عكس محولات MoE، تكون الخيارات المحتملة هي حساب كتلة قياسية (أي الانتباه الذاتي وMLP) أو اتصال متبقٍ. نظرًا لأن بعض الرموز المميزة تأخذ هذا المسار الثاني، فإن محولات مزيج الأعماق (MoD) لها بصمة إجمالية أصغر من FLOP مقارنةً بالمحولات العادية أو MoE. في أعلى اليمين، تم تصوير قرارات توجيه نموذج مدرب لتسلسل قصير تم اقتطاعه إلى 64 رمزًا مميزًا لأغراض التصور. عند فحص الخيارات، يمكن للمرء أن يجد رموزًا مميزة تتم معالجتها بواسطة طبقات الكتل اللاحقة، على الرغم من المرور عبر عدد قليل نسبيًا من الكتل الإجمالية خلال عمق النموذج. هذه ميزة فريدة من MoD مقارنة بالحوسبة الشرطية التقليدية القائمة على التوقف، أو المحولات "الخروج المبكر" أو العادية، والتي تشارك الكتل بالتسلسل بدلاً من ذلك أو تشارك كل كتلة}{figure.caption.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}الخلفية}{2}{section.2}\protected@file@percent }
+\citation{simoulin-crabbe-2021-many,dehghani2018universal}
+\citation{bolya2023token}
+\citation{lei2023conditional}
+\citation{he2021towards}
+\citation{ainslie2023colt5}
+\citation{guo2022longt5}
+\citation{shazeer2017outrageously}
+\citation{lepikhin2020gshard,fedus2022switch,zoph2022stmoe}
+\@writefile{toc}{\contentsline {section}{\numberline {3}تنفيذ محولات مزيج الأعماق}{3}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}تحديد ميزانية الحوسبة}{3}{subsection.3.1}\protected@file@percent }
+\newlabel{sec:define-compute-budget}{{3.1}{3}{تحديد ميزانية الحوسبة}{subsection.3.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}التوجيه حول كتل المحولات}{4}{subsection.3.2}\protected@file@percent }
+\newlabel{sec:routing-to-nowhere}{{3.2}{4}{التوجيه حول كتل المحولات}{subsection.3.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}مخططات التوجيه}{4}{subsection.3.3}\protected@file@percent }
+\newlabel{sec:routing-scheme}{{3.3}{4}{مخططات التوجيه}{subsection.3.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces \textbf  {مخططات التوجيه.} يتم توجيه الرموز إلى مسار الحساب الذي تختاره عند استخدام التوجيه المعتمد على اختيار الرمز (يسار). إذا تجاوز مسار معين سعته (على سبيل المثال، أكثر من رمزين في هذا المثال)، فيجب إسقاط الرموز الفائضة (الرمز الأرجواني). يعتمد الرمز الدقيق الذي يتم إسقاطه في النهاية على التنفيذ الدقيق في الكود الأساسي. على سبيل المثال، غالبًا ما تُعطى الأولوية للرموز التي تأتي في وقت سابق في تسلسل أو ترتيب الدفعة. باستخدام التوجيه المعتمد على اختيار الخبير (وسط)، يتم اختيار $k$ رمز بالضبط (في هذه الحالة، اثنان) لكل مسار باستخدام آلية أعلى $k$ عبر أوزان موجه الرموز. هنا، يتم إسقاط الرموز إذا لم تكن من بين أعلى $k$ فيما يتعلق بأي مسار معين (الرمز البرتقالي)، وقد يتم توجيه بعض الرموز حتى إلى مسارات متعددة (الرمز الأصفر). في هذا العمل ننشر التوجيه المعتمد على اختيار الخبير (يمين). ومع ذلك، لأننا نستخدم مسارًا واحدًا فقط، فإننا \emph  {نستفيد} من المعرفة الضمنية بأنه سيتم إسقاط الرموز إذا كان $k$ أقل من طول التسلسل حتى نتمكن من توجيه الرموز بعيدًا عن حسابات الانتباه الذاتي و MLP، وبالتالي إنفاق عدد أقل من FLOPs في تمرير أمامي معين للنموذج.}}{5}{figure.caption.2}\protected@file@percent }
+\newlabel{fig:routing}{{2}{5}{\textbf {مخططات التوجيه.} يتم توجيه الرموز إلى مسار الحساب الذي تختاره عند استخدام التوجيه المعتمد على اختيار الرمز (يسار). إذا تجاوز مسار معين سعته (على سبيل المثال، أكثر من رمزين في هذا المثال)، فيجب إسقاط الرموز الفائضة (الرمز الأرجواني). يعتمد الرمز الدقيق الذي يتم إسقاطه في النهاية على التنفيذ الدقيق في الكود الأساسي. على سبيل المثال، غالبًا ما تُعطى الأولوية للرموز التي تأتي في وقت سابق في تسلسل أو ترتيب الدفعة. باستخدام التوجيه المعتمد على اختيار الخبير (وسط)، يتم اختيار $k$ رمز بالضبط (في هذه الحالة، اثنان) لكل مسار باستخدام آلية أعلى $k$ عبر أوزان موجه الرموز. هنا، يتم إسقاط الرموز إذا لم تكن من بين أعلى $k$ فيما يتعلق بأي مسار معين (الرمز البرتقالي)، وقد يتم توجيه بعض الرموز حتى إلى مسارات متعددة (الرمز الأصفر). في هذا العمل ننشر التوجيه المعتمد على اختيار الخبير (يمين). ومع ذلك، لأننا نستخدم مسارًا واحدًا فقط، فإننا \emph {نستفيد} من المعرفة الضمنية بأنه سيتم إسقاط الرموز إذا كان $k$ أقل من طول التسلسل حتى نتمكن من توجيه الرموز بعيدًا عن حسابات الانتباه الذاتي و MLP، وبالتالي إنفاق عدد أقل من FLOPs في تمرير أمامي معين للنموذج}{figure.caption.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}تنفيذ التوجيه}{6}{subsection.3.4}\protected@file@percent }
+\newlabel{sec:routing-implementation}{{3.4}{6}{تنفيذ التوجيه}{subsection.3.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}أخذ العينات}{6}{subsection.3.5}\protected@file@percent }
+\newlabel{sec:sampling}{{3.5}{6}{أخذ العينات}{subsection.3.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.6}طرق التدريب}{7}{subsection.3.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}النتائج}{7}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}التدريب ومقارنات isoFLOP}{7}{subsection.4.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces \textbf  {ضبط معلمات النظام لـ MoD.} تم تدريب نماذج متنوعة من محول MoD لمدة 6e18 FLOP لتحديد المعلمات المثلى للتحليلات اللاحقة لـ isoFLOP. في الرسم البياني الأيسر، يشير المربع الرمادي إلى النماذج التي تؤدي أداءً أفضل من أساس isoFLOP الأمثل. وجدنا أن أفضل نسخة من MoD هي تلك التي لديها خيار توجيه كل كتلة أخرى، والتي تستخدم أعلى k بقيمة 256 (لذلك، يتم معالجة 256 أو 12.5٪ من رموز التسلسل بواسطة الانتباه الذاتي و MLP اللاحق، بينما يتم توجيه 1792 رمزًا أو 87.5٪ من رموز التسلسل \emph  {حول} الكتلة). يظهر على اليمين منحنيات التعلم لمجموعة مختارة من النماذج. من الجدير بالذكر أن النموذج رقم 3 يحقق أداءً مساويًا لأساس isoFLOP الأمثل ولكنه يتقدم بسرعة 66٪، نظرًا لعدد أقل نسبيًا من FLOP المطلوبة لكل تمرير أمامي.}}{7}{figure.caption.3}\protected@file@percent }
+\newlabel{fig:mod-learning-curve}{{3}{7}{\textbf {ضبط معلمات النظام لـ MoD.} تم تدريب نماذج متنوعة من محول MoD لمدة 6e18 FLOP لتحديد المعلمات المثلى للتحليلات اللاحقة لـ isoFLOP. في الرسم البياني الأيسر، يشير المربع الرمادي إلى النماذج التي تؤدي أداءً أفضل من أساس isoFLOP الأمثل. وجدنا أن أفضل نسخة من MoD هي تلك التي لديها خيار توجيه كل كتلة أخرى، والتي تستخدم أعلى k بقيمة 256 (لذلك، يتم معالجة 256 أو 12.5٪ من رموز التسلسل بواسطة الانتباه الذاتي و MLP اللاحق، بينما يتم توجيه 1792 رمزًا أو 87.5٪ من رموز التسلسل \emph {حول} الكتلة). يظهر على اليمين منحنيات التعلم لمجموعة مختارة من النماذج. من الجدير بالذكر أن النموذج رقم 3 يحقق أداءً مساويًا لأساس isoFLOP الأمثل ولكنه يتقدم بسرعة 66٪، نظرًا لعدد أقل نسبيًا من FLOP المطلوبة لكل تمرير أمامي}{figure.caption.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces \textbf  {تحليل isoFLOP.} استخدمنا نسخة MoD بسعة 12.5٪ لإجراء تحليل isoFLOP لـ 6e18 و 2e19 و 1e20 FLOP، وتدريب نماذج تتراوح في الحجم من 60 مليون إلى 3 مليار معلمة. يظهر على اليمين FLOP النسبية لكل تمرير أمامي (تم تطبيعها على أساس isoFLOP الأمثل). توجد متغيرات MoD تكون أسرع في الخطوة (بحكم الحاجة إلى عدد أقل من FLOP لكل تمرير أمامي) وأداء أفضل من أساس isoFLOP الأمثل.}}{8}{figure.caption.4}\protected@file@percent }
+\newlabel{fig:isoflop}{{4}{8}{\textbf {تحليل isoFLOP.} استخدمنا نسخة MoD بسعة 12.5٪ لإجراء تحليل isoFLOP لـ 6e18 و 2e19 و 1e20 FLOP، وتدريب نماذج تتراوح في الحجم من 60 مليون إلى 3 مليار معلمة. يظهر على اليمين FLOP النسبية لكل تمرير أمامي (تم تطبيعها على أساس isoFLOP الأمثل). توجد متغيرات MoD تكون أسرع في الخطوة (بحكم الحاجة إلى عدد أقل من FLOP لكل تمرير أمامي) وأداء أفضل من أساس isoFLOP الأمثل}{figure.caption.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces \textbf  {تحليل التوجيه.} قمنا بتدريب محول MoD حيث تم إدراج كتل توجيه بنسبة 12.5٪ بين كتل الانتباه الكامل. كما هو متوقع، يكون عدد الرموز التي يتم توجيهها إلى (بدلاً من حول) الكتلة متناثرًا في كتل التوجيه، على الرغم من أن الشبكة تفضل أحيانًا توجيه رموز معينة إلى كل كتلة على طول عمقها. يمكن ملاحظة ذلك في الشكل الأيسر الذي يصور قرارات التوجيه، حيث نلاحظ شريطًا عموديًا من اللون الأزرق الداكن نحو نهاية التسلسل. كما هو متوقع، يكون توزيع أوزان الموجه كما يمليه الخسارة المساعدة: حوالي 12.5٪ من الأوزان أعلى من 0.5 و 87.5٪ أقل من ذلك (الرسم البياني، يمين).}}{9}{figure.caption.5}\protected@file@percent }
+\newlabel{fig:routing-analysis}{{5}{9}{\textbf {تحليل التوجيه.} قمنا بتدريب محول MoD حيث تم إدراج كتل توجيه بنسبة 12.5٪ بين كتل الانتباه الكامل. كما هو متوقع، يكون عدد الرموز التي يتم توجيهها إلى (بدلاً من حول) الكتلة متناثرًا في كتل التوجيه، على الرغم من أن الشبكة تفضل أحيانًا توجيه رموز معينة إلى كل كتلة على طول عمقها. يمكن ملاحظة ذلك في الشكل الأيسر الذي يصور قرارات التوجيه، حيث نلاحظ شريطًا عموديًا من اللون الأزرق الداكن نحو نهاية التسلسل. كما هو متوقع، يكون توزيع أوزان الموجه كما يمليه الخسارة المساعدة: حوالي 12.5٪ من الأوزان أعلى من 0.5 و 87.5٪ أقل من ذلك (الرسم البياني، يمين)}{figure.caption.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}التقييم التراجعي}{9}{subsection.4.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces \textbf  {التقييم التراجعي.} يؤدي التبديل من مخطط التوجيه أعلى $k$ غير السببي في التدريب إلى نهج قائم على المنشئ السببي أثناء أخذ العينات التراجعية إلى تدهور أداء ضئيل. ربما يرجع ذلك إلى سهولة تعلم مشكلة التنبؤ هذه، والتي تصل إلى دقة 97٪ بسرعة في التدريب.}}{10}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:autoregressive}{{6}{10}{\textbf {التقييم التراجعي.} يؤدي التبديل من مخطط التوجيه أعلى $k$ غير السببي في التدريب إلى نهج قائم على المنشئ السببي أثناء أخذ العينات التراجعية إلى تدهور أداء ضئيل. ربما يرجع ذلك إلى سهولة تعلم مشكلة التنبؤ هذه، والتي تصل إلى دقة 97٪ بسرعة في التدريب}{figure.caption.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}مزيج من الأعماق والخبراء (MoDE)}{10}{subsection.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}المناقشة}{10}{section.5}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces \textbf  {مزيج الأعماق والخبراء (MoDE).} يمكن تنفيذ تقنية MoD إلى جانب MoE (تشكل معًا نماذج MoDE) بطريقتين بسيطتين: مرحلي، والذي ينفذ أولاً آلية MoD قبل آلية MoE، ومتكامل، والذي يستخدم عملية توجيه واحدة لتوجيه الرموز إما إلى الخبراء أو عمليات عدم التشغيل.}}{11}{figure.caption.7}\protected@file@percent }
+\newlabel{fig:mode}{{7}{11}{\textbf {مزيج الأعماق والخبراء (MoDE).} يمكن تنفيذ تقنية MoD إلى جانب MoE (تشكل معًا نماذج MoDE) بطريقتين بسيطتين: مرحلي، والذي ينفذ أولاً آلية MoD قبل آلية MoE، ومتكامل، والذي يستخدم عملية توجيه واحدة لتوجيه الرموز إما إلى الخبراء أو عمليات عدم التشغيل}{figure.caption.7}{}}
+\bibdata{main}
+\bibcite{ainslie2023colt5}{{1}{2023}{{Ainslie et~al.}}{{Ainslie, Lei, de~Jong, Ontañón, Brahma, Zemlyanskiy, Uthus, Guo, Lee-Thorp, Tay, Sung, and Sanghai}}}
+\bibcite{bapna_controlling}{{2}{2020}{{Bapna et~al.}}{{Bapna, Arivazhagan, and Firat}}}
+\bibcite{bengio2016conditional}{{3}{2016}{{Bengio et~al.}}{{Bengio, Bacon, Pineau, and Precup}}}
+\bibcite{bengio2013deep}{{4}{2013}{{Bengio}}{{}}}
+\bibcite{bengio2013estimating}{{5}{2013}{{Bengio et~al.}}{{Bengio, Léonard, and Courville}}}
+\bibcite{bolya2023token}{{6}{2023}{{Bolya et~al.}}{{Bolya, Fu, Dai, Zhang, Feichtenhofer, and Hoffman}}}
+\bibcite{cho2014exponentially}{{7}{2014}{{Cho and Bengio}}{{}}}
+\bibcite{dehghani2018universal}{{8}{2018}{{Dehghani et~al.}}{{Dehghani, Gouws, Vinyals, Uszkoreit, and Kaiser}}}
+\bibcite{elbayad_depth}{{9}{2019}{{Elbayad et~al.}}{{Elbayad, Gu, Grave, and Auli}}}
+\bibcite{fedus2022switch}{{10}{2022}{{Fedus et~al.}}{{Fedus, Zoph, and Shazeer}}}
+\bibcite{graves_adaptive}{{11}{2016}{{Graves}}{{}}}
+\bibcite{guo2022longt5}{{12}{2022}{{Guo et~al.}}{{Guo, Ainslie, Uthus, Ontanon, Ni, Sung, and Yang}}}
+\bibcite{gupta2021compression}{{13}{2021}{{Gupta and Agrawal}}{{}}}
+\bibcite{he2021towards}{{14}{2021}{{He et~al.}}{{He, Zhou, Ma, Berg-Kirkpatrick, and Neubig}}}
+\bibcite{jernite2017variable}{{15}{2017}{{Jernite et~al.}}{{Jernite, Grave, Joulin, and Mikolov}}}
+\bibcite{lei2023conditional}{{16}{2023}{{Lei et~al.}}{{Lei, Bai, Brahma, Ainslie, Lee, Zhou, Du, Zhao, Wu, Li, Zhang, and Chang}}}
+\bibcite{lepikhin2020gshard}{{17}{2020}{{Lepikhin et~al.}}{{Lepikhin, Lee, Xu, Chen, Firat, Huang, Krikun, Shazeer, and Chen}}}
+\bibcite{liu2021anytime}{{18}{2021}{{Liu et~al.}}{{Liu, Xu, Wang, Darrell, and Shelhamer}}}
+\bibcite{schuster2022confident}{{19}{2022}{{Schuster et~al.}}{{Schuster, Fisch, Gupta, Dehghani, Bahri, Tran, Tay, and Metzler}}}
+\bibcite{shazeer2017outrageously}{{20}{2017}{{Shazeer et~al.}}{{Shazeer, Mirhoseini, Maziarz, Davis, Le, Hinton, and Dean}}}
+\bibcite{simoulin-crabbe-2021-many}{{21}{2021}{{Simoulin and Crabb{\'e}}}{{}}}
+\bibcite{tay_efficient}{{22}{2020}{{Tay et~al.}}{{Tay, Dehghani, Bahri, and Metzler}}}
+\bibcite{wang_skipnet}{{23}{2017}{{Wang et~al.}}{{Wang, Yu, Dou, and Gonzalez}}}
+\bibcite{zoph2022stmoe}{{24}{2022}{{Zoph et~al.}}{{Zoph, Bello, Kumar, Du, Huang, Dean, Shazeer, and Fedus}}}
+\newlabel{LastPage}{{5}{13}{المناقشة}{page.13}{}}
+\gdef\lastpage@lastpage{13}
+\gdef\lastpage@lastpageHy{13}
+\gdef \@abspage@last{13}

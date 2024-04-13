@@ -1,0 +1,151 @@
+\begin{thebibliography}{24}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Ainslie et~al.(2023)Ainslie, Lei, de~Jong, Ontañón, Brahma,
+  Zemlyanskiy, Uthus, Guo, Lee-Thorp, Tay, Sung, and Sanghai]{ainslie2023colt5}
+J.~Ainslie, T.~Lei, M.~de~Jong, S.~Ontañón, S.~Brahma, Y.~Zemlyanskiy,
+  D.~Uthus, M.~Guo, J.~Lee-Thorp, Y.~Tay, Y.-H. Sung, and S.~Sanghai.
+\newblock Colt5: Faster long-range transformers with conditional computation,
+  2023.
+
+\bibitem[Bapna et~al.(2020)Bapna, Arivazhagan, and Firat]{bapna_controlling}
+A.~Bapna, N.~Arivazhagan, and O.~Firat.
+\newblock Controlling computation versus quality for neural sequence models.
+\newblock \emph{CoRR}, abs/2002.07106, 2020.
+\newblock URL \url{https://arxiv.org/abs/2002.07106}.
+
+\bibitem[Bengio et~al.(2016)Bengio, Bacon, Pineau, and
+  Precup]{bengio2016conditional}
+E.~Bengio, P.-L. Bacon, J.~Pineau, and D.~Precup.
+\newblock Conditional computation in neural networks for faster models, 2016.
+
+\bibitem[Bengio(2013)]{bengio2013deep}
+Y.~Bengio.
+\newblock Deep learning of representations: Looking forward, 2013.
+
+\bibitem[Bengio et~al.(2013)Bengio, Léonard, and
+  Courville]{bengio2013estimating}
+Y.~Bengio, N.~Léonard, and A.~Courville.
+\newblock Estimating or propagating gradients through stochastic neurons for
+  conditional computation, 2013.
+
+\bibitem[Bolya et~al.(2023)Bolya, Fu, Dai, Zhang, Feichtenhofer, and
+  Hoffman]{bolya2023token}
+D.~Bolya, C.-Y. Fu, X.~Dai, P.~Zhang, C.~Feichtenhofer, and J.~Hoffman.
+\newblock Token merging: Your vit but faster, 2023.
+
+\bibitem[Cho and Bengio(2014)]{cho2014exponentially}
+K.~Cho and Y.~Bengio.
+\newblock Exponentially increasing the capacity-to-computation ratio for
+  conditional computation in deep learning, 2014.
+
+\bibitem[Dehghani et~al.(2018)Dehghani, Gouws, Vinyals, Uszkoreit, and
+  Kaiser]{dehghani2018universal}
+M.~Dehghani, S.~Gouws, O.~Vinyals, J.~Uszkoreit, and {\L}.~Kaiser.
+\newblock Universal transformers.
+\newblock \emph{arXiv preprint arXiv:1807.03819}, 2018.
+
+\bibitem[Elbayad et~al.(2019)Elbayad, Gu, Grave, and Auli]{elbayad_depth}
+M.~Elbayad, J.~Gu, E.~Grave, and M.~Auli.
+\newblock Depth-adaptive transformer.
+\newblock \emph{CoRR}, abs/1910.10073, 2019.
+\newblock URL \url{http://arxiv.org/abs/1910.10073}.
+
+\bibitem[Fedus et~al.(2022)Fedus, Zoph, and Shazeer]{fedus2022switch}
+W.~Fedus, B.~Zoph, and N.~Shazeer.
+\newblock Switch transformers: Scaling to trillion parameter models with simple
+  and efficient sparsity, 2022.
+
+\bibitem[Graves(2016)]{graves_adaptive}
+A.~Graves.
+\newblock Adaptive computation time for recurrent neural networks.
+\newblock \emph{CoRR}, abs/1603.08983, 2016.
+\newblock URL \url{http://arxiv.org/abs/1603.08983}.
+
+\bibitem[Guo et~al.(2022)Guo, Ainslie, Uthus, Ontanon, Ni, Sung, and
+  Yang]{guo2022longt5}
+M.~Guo, J.~Ainslie, D.~Uthus, S.~Ontanon, J.~Ni, Y.-H. Sung, and Y.~Yang.
+\newblock Longt5: Efficient text-to-text transformer for long sequences, 2022.
+
+\bibitem[Gupta and Agrawal(2021)]{gupta2021compression}
+M.~Gupta and P.~Agrawal.
+\newblock Compression of deep learning models for text: A survey, 2021.
+
+\bibitem[He et~al.(2021)He, Zhou, Ma, Berg-Kirkpatrick, and
+  Neubig]{he2021towards}
+J.~He, C.~Zhou, X.~Ma, T.~Berg-Kirkpatrick, and G.~Neubig.
+\newblock Towards a unified view of parameter-efficient transfer learning.
+\newblock \emph{arXiv preprint arXiv:2110.04366}, 2021.
+
+\bibitem[Jernite et~al.(2017)Jernite, Grave, Joulin, and
+  Mikolov]{jernite2017variable}
+Y.~Jernite, E.~Grave, A.~Joulin, and T.~Mikolov.
+\newblock Variable computation in recurrent neural networks, 2017.
+
+\bibitem[Lei et~al.(2023)Lei, Bai, Brahma, Ainslie, Lee, Zhou, Du, Zhao, Wu,
+  Li, Zhang, and Chang]{lei2023conditional}
+T.~Lei, J.~Bai, S.~Brahma, J.~Ainslie, K.~Lee, Y.~Zhou, N.~Du, V.~Y. Zhao,
+  Y.~Wu, B.~Li, Y.~Zhang, and M.-W. Chang.
+\newblock Conditional adapters: Parameter-efficient transfer learning with fast
+  inference, 2023.
+
+\bibitem[Lepikhin et~al.(2020)Lepikhin, Lee, Xu, Chen, Firat, Huang, Krikun,
+  Shazeer, and Chen]{lepikhin2020gshard}
+D.~Lepikhin, H.~Lee, Y.~Xu, D.~Chen, O.~Firat, Y.~Huang, M.~Krikun, N.~Shazeer,
+  and Z.~Chen.
+\newblock Gshard: Scaling giant models with conditional computation and
+  automatic sharding.
+\newblock \emph{arXiv preprint arXiv:2006.16668}, 2020.
+
+\bibitem[Liu et~al.(2021)Liu, Xu, Wang, Darrell, and Shelhamer]{liu2021anytime}
+Z.~Liu, Z.~Xu, H.-J. Wang, T.~Darrell, and E.~Shelhamer.
+\newblock Anytime dense prediction with confidence adaptivity.
+\newblock \emph{arXiv preprint arXiv:2104.00749}, 2021.
+
+\bibitem[Schuster et~al.(2022)Schuster, Fisch, Gupta, Dehghani, Bahri, Tran,
+  Tay, and Metzler]{schuster2022confident}
+T.~Schuster, A.~Fisch, J.~Gupta, M.~Dehghani, D.~Bahri, V.~Q. Tran, Y.~Tay, and
+  D.~Metzler.
+\newblock Confident adaptive language modeling, 2022.
+
+\bibitem[Shazeer et~al.(2017)Shazeer, Mirhoseini, Maziarz, Davis, Le, Hinton,
+  and Dean]{shazeer2017outrageously}
+N.~Shazeer, A.~Mirhoseini, K.~Maziarz, A.~Davis, Q.~Le, G.~Hinton, and J.~Dean.
+\newblock Outrageously large neural networks: The sparsely-gated
+  mixture-of-experts layer.
+\newblock \emph{arXiv preprint arXiv:1701.06538}, 2017.
+
+\bibitem[Simoulin and Crabb{\'e}(2021)]{simoulin-crabbe-2021-many}
+A.~Simoulin and B.~Crabb{\'e}.
+\newblock How many layers and why? {A}n analysis of the model depth in
+  transformers.
+\newblock In \emph{Proceedings of the 59th Annual Meeting of the Association
+  for Computational Linguistics and the 11th International Joint Conference on
+  Natural Language Processing: Student Research Workshop}, pages 221--228,
+  Online, Aug. 2021. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2021.acl-srw.23}.
+\newblock URL \url{https://aclanthology.org/2021.acl-srw.23}.
+
+\bibitem[Tay et~al.(2020)Tay, Dehghani, Bahri, and Metzler]{tay_efficient}
+Y.~Tay, M.~Dehghani, D.~Bahri, and D.~Metzler.
+\newblock Efficient transformers: {A} survey.
+\newblock \emph{CoRR}, abs/2009.06732, 2020.
+\newblock URL \url{https://arxiv.org/abs/2009.06732}.
+
+\bibitem[Wang et~al.(2017)Wang, Yu, Dou, and Gonzalez]{wang_skipnet}
+X.~Wang, F.~Yu, Z.~Dou, and J.~E. Gonzalez.
+\newblock Skipnet: Learning dynamic routing in convolutional networks.
+\newblock \emph{CoRR}, abs/1711.09485, 2017.
+\newblock URL \url{http://arxiv.org/abs/1711.09485}.
+
+\bibitem[Zoph et~al.(2022)Zoph, Bello, Kumar, Du, Huang, Dean, Shazeer, and
+  Fedus]{zoph2022stmoe}
+B.~Zoph, I.~Bello, S.~Kumar, N.~Du, Y.~Huang, J.~Dean, N.~Shazeer, and
+  W.~Fedus.
+\newblock St-moe: Designing stable and transferable sparse expert models, 2022.
+
+\end{thebibliography}
