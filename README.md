@@ -1,5 +1,5 @@
 # Mixture-of-Depths: Dynamically Allocating Compute in Transformer-Based Language Models (Arabic Translation)
-# مزيج الأعماق: تخصيصالحوسبة ديناميكياً في نماذج اللغة القائمة على المحولات
+# مزيج الأعماق: تخصيص الحوسبة ديناميكياً في نماذج اللغة القائمة على المحولات
 ## Description
 This repository contains the Arabic translation of the research paper "Mixture-of-Depths: Dynamically Allocating Compute in Transformer-Based Language Models." The translation aims to make the content more accessible to Arabic-speaking researchers and enthusiasts in the field of machine learning and NLP.
 
