@@ -17,4 +17,17 @@ You can view and download the Arabic translated document from the following link
 ## Usage
 This translated document is provided for educational and research purposes. Please ensure to cite both the original work and mention this translation accordingly if you use it in your research or reference it in any scholarly work.
 
- 
+## Citation
+If you use this translation or refer to it in your academic or professional work, please cite it as follows:
+
+```bibtex
+@misc{arXiv-2404.02258v1_AR,
+  title={مزيج الأعماق: تخصيص الحوسبة ديناميكياً في نماذج اللغة القائمة على المحولات},
+  author={Translated by claude.ai},
+  year={2024},
+  howpublished={\url{https://github.com/Elrashid/arXiv-2404.02258v1.AR}},
+}
+```
+
+For citing the original paper, please refer to the citation format provided in the [arXiv link](https://arxiv.org/pdf/2404.02258v1.pdf).
+```
